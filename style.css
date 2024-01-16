@@ -3,6 +3,63 @@
     padding: 0;
     font-family: "Mulish", sans-serif;
 }
+
+                /* header */
+
+/* nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+    width: 1170px;
+    align-items: center;
+}      
+.nav-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    color: #131318;
+    font-size: 26px;
+    font-weight: 800;
+}    
+.nav-title img{
+    width: 58px;
+    height: 56.008px;
+}  
+.nav-title span{
+    color: #FF5400;
+}   
+.nav-title-A ul{
+    list-style-type: none;
+
+    color: #424247;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+} 
+.nav-title-A ul li{
+    display: inline;
+    margin: 0px 17px;
+    
+}
+.nav-title-A a{
+    text-decoration: none;
+    color: #424247;
+}
+.checkbtn{
+    font-size: 30px;
+    color: #424247;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+} */
+
                     /* section== 01 */
 .Travel{
     background-image: url(./Images/Group\ 13\ \(1\)\ \(1\).png);
@@ -103,7 +160,117 @@ button{
 
             /* <!-- section== 03 --> */
 
+.Destination{
+    margin: 40px auto;
+    width: 1170px;
+}
+.Destination-A{
+    text-align: center;
+}
+.Destination-A h2{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.Destination-A p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+    margin-bottom: 40px;
+}
 
+
+
+.grid-item-1{
+    grid-area: grid-item-1;
+    position: absolute;
+}
+.grid-item-1 h4{
+    position: absolute;
+    margin-left: 240px;
+    margin-top: -170px;
+}
+
+
+.grid-item-2{
+    grid-area: grid-item-2;
+    margin-left: -140px;
+}
+.grid-item-2 h4{
+    margin-left: 200px;
+    position: absolute;
+    margin-top: -170px;
+}
+
+
+.grid-item-3{
+    grid-area: grid-item-3;
+}
+.grid-item-3 h4{
+    position: absolute;
+    margin-left: 130px;
+    margin-top: -170px;
+}
+
+
+.grid-item-4{
+    grid-area: grid-item-4;
+    position: absolute;
+    margin-left: -100px;
+}
+.grid-item-4 h4{
+    position: absolute;
+    margin-left: 150px;
+    margin-top: -170px;
+}
+
+
+.grid-item-5{
+    grid-area: grid-item-5;
+}
+.grid-item-5 h4{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: -170px;
+}
+
+
+.grid-item-6{
+    grid-area: grid-item-6;
+}
+.grid-item-6 h4{
+    position: absolute;
+    margin-left: 150px;
+    margin-top: -170px;
+}
+
+
+.grid-item-7{
+    grid-area: grid-item-7;
+}
+.grid-item-7 h4{
+    position: absolute;
+    margin-left: 220px;
+    margin-top: -170px;
+}
+
+.img-container{
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+    position: relative;
+
+
+    display: grid;
+    gap: 20px;
+    grid-template-areas:
+    "grid-item-1  grid-item-1  grid-item-2  grid-item-2" 
+    "grid-item-3  grid-item-4  grid-item-4  grid-item-5" 
+    "grid-item-6  grid-item-7  grid-item-7  grid-item-7" ;
+    
+}
 
 
             /* <!-- section== 04 --> */
