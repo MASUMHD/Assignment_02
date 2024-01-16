@@ -338,7 +338,44 @@ button{
 
             /* <!-- section== 05 --> */
 
-
+            .new-e{
+                width: 1170px;
+                height: 782px;
+                margin: 100px auto;
+                border: 2px solid black;
+            }
+            .pic-A{
+                text-align: center;
+            }
+            .pic-A h3{
+                color: #070211;
+                font-size: 48px;
+                font-weight: 900;
+                text-transform: capitalize;
+                margin-bottom: 20px;
+            }
+            
+            .all-pic{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+            }
+            .all-pic img{
+                width: 400px;
+                height: 300px;
+                border: 2px solid #ff3d0036;
+                border-radius: 13px;
+                box-shadow: 4px 7px 7px 0px #00000042;
+                cursor: pointer;
+                margin: 10px;
+                transition: 400ms;
+            
+            }
+            .all-pic img:hover{
+                filter: grayscale(1);
+                transform: scale(1.03);
+            }
 
 
             /* <!-- section== 06 --> */

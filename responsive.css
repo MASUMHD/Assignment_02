@@ -4,12 +4,12 @@
     
     nav{
         flex-direction: column;
-        width: 600px;
+        width: 595px;
     } 
     
     .Travel{
-        width: 600px;
-        margin-left: 40px;
+        width: 595px;
+        margin-left: 2px;
     }
     .Travel-A h1{
         color: #0e0e0e;
@@ -41,19 +41,19 @@
          padding: 30px;
     }  
     .Tours-A{
-        width: 600px;
+        width: 595px;
         height: 500px;
     }           
     .Tours-C{
-        margin-left:30px ;
+        margin-left:2px ;
     }
 
 
                 /* <!-- section== 03 --> */
       
     .Destination{
-        width: 600px;
-        margin-left: 15px;
+        width: 595px;
+        margin-left: px;
     }
     
     .img-container{
@@ -129,17 +129,26 @@
 
 
     .Choose{
-        width: 600px;
+        width: 595px;
     }
     .Choose-B{
        flex-direction: column;
     }
     .Choose-C{
         margin-left: 5px;
+        width: 595px;
     }
     .Choose-E{
         margin-left: 0;
         width: 573px;
+    }
+
+    /* <!-- section== 05 --> */
+
+    .new-e{
+        width: 595px;
+        height: 1400px;
+
     }
 
 
@@ -149,12 +158,12 @@
         flex-direction: column;
     }
     .Simple-A{
-        width: 600px;
+        width: 595px;
         height: 500px;
-        margin-left: 30px;
+        margin-left: 5px;
     }
     .Simple-B{
-        margin-left: 30px;
+        margin-left: 0px;
         margin-top: -60px;
     }
     .Simple-B h4{
@@ -166,16 +175,24 @@
 
     .Newsletter{
         margin-top: 300px;
-        margin-left: 30px;
-        width: 600px;
+        margin-left: 2px;
+        width: 595px;
         flex-direction: column;
     }    
+    .Newsletter-B img{
+        width: 595px;
+    }
+    .Save-up{
+        margin-left: 260px;
+    }
 
     /* footer */
 
    footer{
-    width: 680px;
+    width: 600px;
    } 
-        
+   .hr{
+    width: 0px;
+   }
                
 }
