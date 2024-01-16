@@ -6,7 +6,7 @@
 
                 /* header */
 
-/* nav{
+nav{
     display: flex;
     justify-content: space-between;
     margin: 50px auto;
@@ -47,7 +47,7 @@
     text-decoration: none;
     color: #424247;
 }
-.checkbtn{
+/* .checkbtn{
     font-size: 30px;
     color: #424247;
     float: right;
